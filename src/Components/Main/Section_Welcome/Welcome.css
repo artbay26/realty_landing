@@ -1,0 +1,104 @@
+.main__welcome {}
+
+.welcome {}
+
+.welcome__container {
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+.welcome__social {
+    font-size: 20px;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    width: 20px;
+}
+
+.social__item {
+    margin-bottom: 20px;
+}
+
+.social__item:hover {
+    color: #FCD54C;
+}
+
+.welcom__titleBox {
+    max-width: 715px;
+    align-self: center;
+}
+
+.welcom__preTitle {
+    font-size: 16px;
+    line-height: calc(19/16);
+}
+
+.welcom__title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 96px;
+    text-transform: capitalize;
+}
+
+.welcom__title span {
+    color: #FCD54C;
+}
+
+.welcom__consultation {
+    font-size: 16px;
+    line-height: calc(23/16);
+    font-weight: 500;
+    margin-top: 40px;
+    color: #FFFF;
+}
+
+.welcom__consultation:hover {
+    color: #FCD54C;
+    transition: 0.3s;
+}
+
+.welcome__numbers {}
+
+.numbers {
+    display: flex;
+    align-self: end;
+    max-width: 700px;
+    height: 90px;
+}
+
+.numbers_item {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.numbers__digit {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: calc(24/16);
+    padding: 10px;
+}
+
+.numbers__digit:hover {
+    cursor: pointer;
+    color: #FCD54C;
+}
+
+.numbers__text {
+    font-size: 16px;
+    line-height: calc(26/16);
+    padding: 10px;
+    align-self: center;
+}
+
+.welcom__images {}
+
+.images {
+    height: 200px;
+}
+
+._ibg {}
