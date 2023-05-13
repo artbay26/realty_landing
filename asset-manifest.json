@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/realty_landing/static/css/main.892f3772.css",
+    "main.js": "/realty_landing/static/js/main.537c187e.js",
+    "static/media/imgDubai_1.png": "/realty_landing/static/media/imgDubai_1.7cce80caa98629eb8854.png",
+    "static/media/video section.png": "/realty_landing/static/media/video section.2490b096f6e222955fd7.png",
+    "static/media/Rectangle_contact.png": "/realty_landing/static/media/Rectangle_contact.29263d1fb6f3a2cee8a4.png",
+    "static/media/cover.png": "/realty_landing/static/media/cover.f34b5d9c5342eb740ba7.png",
+    "static/media/AIN-dubai.png": "/realty_landing/static/media/AIN-dubai.74c02be96ffa60290659.png",
+    "static/media/Discript_2.png": "/realty_landing/static/media/Discript_2.19c86cf32e039f6e63a4.png",
+    "static/media/Project_2.jpg": "/realty_landing/static/media/Project_2.ef7e1d22fffc74d50c53.jpg",
+    "static/media/Project_4.jpg": "/realty_landing/static/media/Project_4.ef7e1d22fffc74d50c53.jpg",
+    "static/media/Discript_1.png": "/realty_landing/static/media/Discript_1.ab7c9e2e8e2f89ea36ae.png",
+    "static/media/Project_3.jpg": "/realty_landing/static/media/Project_3.7248272c9c874511d816.jpg",
+    "static/media/artical_2.png": "/realty_landing/static/media/artical_2.c576304e14dfbecaca8f.png",
+    "static/media/artical_1.png": "/realty_landing/static/media/artical_1.40ffefda9b2dc9cbb67e.png",
+    "static/media/artical_3.png": "/realty_landing/static/media/artical_3.40ffefda9b2dc9cbb67e.png",
+    "static/media/Project_1.jpg": "/realty_landing/static/media/Project_1.b7dfbda0bb101a4e40d0.jpg",
+    "static/media/Person_2.png": "/realty_landing/static/media/Person_2.508023f7d3505360e3a3.png",
+    "static/media/Person_1.png": "/realty_landing/static/media/Person_1.d1a71518471680794705.png",
+    "static/media/Logo.svg": "/realty_landing/static/media/Logo.7801afd9439b8b261ee9098fe4f86330.svg",
+    "index.html": "/realty_landing/index.html",
+    "static/media/Rectangle.svg": "/realty_landing/static/media/Rectangle.300c18211c1e677b9526.svg",
+    "main.892f3772.css.map": "/realty_landing/static/css/main.892f3772.css.map",
+    "main.537c187e.js.map": "/realty_landing/static/js/main.537c187e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.892f3772.css",
+    "static/js/main.537c187e.js"
+  ]
+}
