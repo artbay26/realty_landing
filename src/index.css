@@ -1,25 +1,25 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 a,
 a:hover,
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ol,
 ul,
 li {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  vertical-align: top;
-  width: 100%
+    vertical-align: top;
+    width: 100%
 }
 
 h1,
@@ -28,80 +28,84 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: inherit;
-  font-size: inherit;
+    font-weight: inherit;
+    font-size: inherit;
 }
 
 input,
 button,
 textarea {
-  font-family: inherit;
+    font-family: inherit;
 }
 
 .button {
-  cursor: pointer;
+    cursor: pointer;
 }
-
-
 
 body {
-  height: 100%;
-  width: 100%;
-  //line-height: calc(14/16);
-  font-size: 14px;
-  color: white;
-  background: #000000;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+    height: 100%;
+    width: 100%;
+    //line-height: calc(14/16);
+    font-size: 14px;
+    color: white;
+    background: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
+
 body_lock {
-  overflow: hidden;
-  touch-action: none;
+    overflow: hidden;
+    touch-action: none;
 }
 
 .wrapper {
-  min-height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 75px;
 }
 
 .page {
-  flex: 1 1 auto;
-  padding-top: 85px;
+    flex: 1 1 auto;
+    padding-top: 85px;
 }
 
 [class*="_container"] {
-  max-width: 1810px;
-  margin: 0px auto;
-  padding: 0 20px;
-  display: flex;
+    max-width: 1810px;
+    margin: 0px auto;
+    padding: 10px 20px;
+    display: flex;
 }
 
 [class*="__link"] {
-  cursor: pointer;
-  color: #FFFFFF;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
-[class*="__link"]:hover{
-  color: #FCD54C;
-  transition: 500ms;
+[class*="__link"]:hover {
+    color: #FCD54C;
+    transition: 500ms;
 }
 
 .button {
-  padding: 14px;
-  background: #FCD54C;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 600;
-  
+    padding: 10px 14px;
+    background: #FCD54C;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .button:hover {
-  background: #000000;
-  color:#FCD54C;
-  border: 1px solid #FCD54C
-
+    background: #000000;
+    color: #FCD54C;
+    border: 1px solid #FCD54C;
 }
 
+.active {
+    display: block;
+}
 
+.hidden {
+    display: none;
+}

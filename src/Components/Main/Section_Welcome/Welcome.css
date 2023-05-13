@@ -3,16 +3,28 @@
 .welcome {}
 
 .welcome__container {
-    flex-direction: column;
     margin-top: 85px;
+    height: 100vh;
+}
+
+.welcome__containerBox {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome__topBox {
+    position: relative;
+    width: 100%;
 }
 
 .welcome__social {
-    font-size: 20px;
-    color: white;
+    position: absolute;
+    right: 0;
 }
 
 .social {
+    font-size: 20px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-self: end;
@@ -25,11 +37,29 @@
 
 .social__item:hover {
     color: #FCD54C;
+    cursor: pointer;
 }
 
-.welcom__titleBox {
-    max-width: 715px;
-    align-self: center;
+.welcome__titleBox {
+    position: absolute;
+    top: 90px;
+    left: 20%;
+    width: 45%;
+}
+
+.welcome__titleBox::before {
+    content: '';
+    display: block;
+    background: url("../../../assets/Rectangle.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 113%;
+    right: 20px;
+    bottom: -28px;
+    z-index: -1;
+    padding: 10px;
 }
 
 .welcom__preTitle {
@@ -60,45 +90,169 @@
     transition: 0.3s;
 }
 
-.welcome__numbers {}
+
+/*.welcome__numbers {
+    margin-top: 206px;
+    margin-right: -20px;
+}*/
+
+.welcome__bottomBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+    flex-direction: column;
+}
+
+.welcome__prevNext {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.welcome__prevNext span:hover {
+    cursor: pointer;
+    color: #FCD54C;
+}
+
+.welcome__numbers {
+    align-self: end;
+}
 
 .numbers {
     display: flex;
-    align-self: end;
-    max-width: 700px;
-    height: 90px;
+    max-width: 1050px;
+    margin-right: -20px;
 }
 
-.numbers_item {
+.numbers__item {
     background-color: black;
     display: flex;
     justify-content: space-around;
     align-self: center;
 }
 
+.numbers__item:hover {
+    cursor: pointer;    
+    background: #929292;
+}
+
 .numbers__digit {
     font-size: 60px;
     font-weight: 700;
     line-height: calc(24/16);
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
 }
 
-.numbers__digit:hover {
-    cursor: pointer;
+.numbers__digit_yellow {
     color: #FCD54C;
 }
 
 .numbers__text {
     font-size: 16px;
     line-height: calc(26/16);
-    padding: 10px;
+    padding: 0 58px 0 38px;
     align-self: center;
 }
 
-.welcom__images {}
-
-.images {
-    height: 200px;
+._ibg {
+    position: relative;
 }
 
-._ibg {}
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -5;
+}
+
+@media all and (max-width: 1440px) {
+    .welcome__titleBox {
+        top: 60px;
+        left: 15%
+    }
+    .welcom__title {
+        font-size: 70px;
+    }
+    .numbers {
+        max-width: 700px;
+        height: 130px;
+        margin-right: -20px;
+        margin-bottom: 70px;
+    }
+    .numbers__digit {
+        font-size: 40px;
+    }
+    .numbers__text {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .numbers__digit {
+        padding: 10px 10px 10px 10px;
+    }
+    .numbers__text {
+        padding: 0 28px 0 18px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .welcom__titleBox {
+        max-width: 70%;
+        align-self: self-start;
+        position: relative;
+        margin-top: -140px;
+        margin-left: 25px;
+    }
+    .welcom__title {
+        font-size: 50px;
+    }
+    .welcom__titleBox::before {
+        right: 5px;
+    }
+    .welcome__prevNext {
+        letter-spacing: 3px;
+    }
+    .numbers {
+        max-width: 540px;
+    }
+    .numbers__digit {
+        font-size: 35px;
+        padding: 5px;
+    }
+    .numbers__text {
+        font-size: 12px;
+        padding: 0 3% 0 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .social {
+        display: none;
+    }
+    .welcom__titleBox {
+        margin-top: 40px;
+    }
+    .numbers__item {
+        flex-direction: column;
+        text-align: left;
+    }
+    .numbers__text {
+        font-size: 11px;
+        padding: 0 10% 0 0;
+    }
+}

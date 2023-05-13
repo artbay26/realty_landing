@@ -1,0 +1,116 @@
+    .main__contacts {
+        width: 100%;
+        position: relative;
+    }
+    
+    .main__contacts:after {
+        content: "";
+        display: block;
+        background: url("../../../assets/Rectangle_contact.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+    
+    .contacts {}
+    
+    .contacts__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 60%;
+        margin: 85px auto;
+        padding: 5% 0;
+    }
+    
+    ._container {}
+    
+    .contacts__pretitle {
+        font-size: 18px;
+        line-height: calc(29/18);
+        color: black;
+        text-align: center;
+    }
+    
+    .contacts__title {
+        font-family: 'Gilroy-ExtraBold', sans-serif;
+        font-size: 120px;
+        font-weight: 700;
+        line-height: calc(70/120);
+        color: black;
+        text-align: center;
+    }
+    
+    .contacts__form {}
+    
+    .form {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .form__inputsEnt {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .form__inputsBtn {
+        height: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px 50px;
+    }
+    
+    .form__inputsBtn:hover {
+        cursor: pointer;
+        background-color: #929292;
+    }
+    
+    @media all and (max-width: 1440px) {
+        .contacts__title {
+            font-size: 90px;
+            line-height: calc(70/90);
+        }
+        .form__inputsEnt {
+            width: 68%;
+        }
+    }
+    
+    @media all and (max-width: 768px) {
+        .contacts__title {
+            font-size: 60px;
+            line-height: calc(70/60);
+        }
+        .form__inputsEnt {
+            width: 68%;
+        }
+        .form__inputs {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+        }
+        .form__inputsEnt {
+            width: 100%;
+        }
+        .form__inputsBtn {
+            width: 100%;
+            padding: 22px 50px;
+        }
+        @media all and (max-width: 320px) {
+            .contacts__title {
+                font-size: 40px;
+                line-height: calc(50/40);
+            }
+            .form__inputs {
+                margin: 75px auto;
+                height: 61px;
+            }
+        }
+    }

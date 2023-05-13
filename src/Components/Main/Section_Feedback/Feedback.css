@@ -1,0 +1,85 @@
+.main__feedback {
+    margin-top: 200px;
+}
+
+.feedback {}
+
+.feedback__container {
+    display: flex;
+    column-gap: 5%;
+}
+
+.feedback__containerBox {}
+
+._container {}
+
+.feedback__persons {}
+
+.persons {
+    display: flex;
+    column-gap: 5%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.listImages__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 525px;
+    max-height: 371px;
+    padding: 3%;
+}
+
+.listImages__item_persons {
+    border: 1px solid #FCD54C;
+    font-weight: 400;
+}
+
+.persons__img {
+    max-width: 112px;
+    max-height: 112px;
+    margin-bottom: 80px;
+}
+
+.persons__img img {
+    border-radius: 50%;
+    margin-top: -80%;
+}
+
+.persons__firstName {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 25px;
+    line-height: calc(25/25);
+    margin-bottom: 20px;
+}
+
+.persons__job {
+    font-size: 16px;
+    line-height: calc(19/16);
+    margin-bottom: 30px;
+}
+
+.persons__jobLink {
+    color: #FCD54C;
+}
+
+.persons__text {
+    font-size: 16px;
+    line-height: calc(26/16);
+    color: #929292;
+}
+
+@media all and (max-width: 768px) {
+    .main__feedback {
+        margin-top: 450px;
+    }
+    .persons {
+        flex-direction: column;
+        row-gap: 125px;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 768px) {}
