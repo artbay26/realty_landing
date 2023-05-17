@@ -1,4 +1,6 @@
-.main__overview {}
+.main__overview {
+    margin-top: clamp(75px, calc(75 / 1810 * 100vw), 75px);
+}
 
 .overview {
     display: flex;

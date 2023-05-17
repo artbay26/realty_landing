@@ -1,13 +1,10 @@
 .main__feedback {
-    margin-top: 200px;
+    margin-top: clamp(75px, calc(75 / 1810 * 100vw), 105px);
 }
 
 .feedback {}
 
-.feedback__container {
-    display: flex;
-    column-gap: 5%;
-}
+.feedback__container {}
 
 .feedback__containerBox {}
 
@@ -71,8 +68,10 @@
 }
 
 @media all and (max-width: 768px) {
-    .main__feedback {
-        margin-top: 450px;
+    .feedback__containerBox {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
     }
     .persons {
         flex-direction: column;
@@ -81,5 +80,3 @@
         align-items: center;
     }
 }
-
-@media all and (max-width: 768px) {}

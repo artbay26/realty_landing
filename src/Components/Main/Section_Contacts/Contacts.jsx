@@ -1,6 +1,6 @@
 import './Contacts.css';
 
-const SectionContacts = (props) => {
+const SectionContacts = () => {
     
     return ( 
     <section className="main__contacts contacts">

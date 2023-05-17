@@ -17,7 +17,7 @@ const SectionWelcome = (props) => {
         <section className="main__welcome welcome">
             <div className="welcome__container welcome__containerBox _container">
                 <div className="welcome__topBox">
-                    <WelcomeSocial listSocialtoProps = {dataWelcome.listSocial.items}/>
+                    <WelcomeSocial listSocialtoProps = {props.startSet.listSocial.items}/>
                     <div className="welcome__titleBox">
                         <h3 className="welcom__preTitle">Lorem ipsum</h3>
                         <h1 className="welcom__title">Welcome home <span>to</span> luxury</h1>
@@ -49,7 +49,7 @@ const SectionWelcome = (props) => {
                     </ul>
                 </div>                
             </div>
-            <WelcomeImages listImagestoProps = {dataWelcome.listImagesDubai.items} currentImageId = {currentImageId}/>            
+            <WelcomeImages listImagestoProps = {props.startSet.listImagesDubai.items} currentImageId = {currentImageId}/>            
         </section>)
     }
 

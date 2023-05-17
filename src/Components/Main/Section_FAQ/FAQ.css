@@ -1,16 +1,17 @@
 .main__FAQ {
-    margin-top: 100px;
+    margin-top: clamp(75px, calc(75 / 1810 * 100vw), 75px);
 }
 
 .FAQ {}
 
-.FAQ__container {
+.FAQ__container {}
+
+.FAQ__containerBox {
     display: flex;
     flex-direction: column;
     row-gap: 75px;
+    flex: 1 1 auto;
 }
-
-.FAQ__containerBox {}
 
 .FAQ__titile {
     font-family: 'Gilroy-ExtraBold', sans-serif;
@@ -59,5 +60,5 @@
 .qa__answer {
     font-size: 14px;
     line-height: calc(22/14);
-    padding: 70px;    
+    padding: 70px;
 }
